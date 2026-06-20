@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "f967dbce-a6bc-41aa-aeab-099c9342349c",
+      "name": "openaq_raw_files"
+    },
+    "batch_definition": {
+      "id": "8203d872-e5b7-48fc-9105-6e875b3c2e69",
+      "name": "single_file_batch"
+    },
+    "datasource": {
+      "id": "5e7df299-6284-482e-9346-071a4c1ba406",
+      "name": "openaq_csv_source"
+    }
+  },
+  "id": "c0dd4805-9d67-4216-8554-22243917e449",
+  "name": "validate_openaq_file",
+  "suite": {
+    "id": "b16395c6-fcd8-4955-a10b-a4643bd7b782",
+    "name": "openaq_validation_suite"
+  }
+}

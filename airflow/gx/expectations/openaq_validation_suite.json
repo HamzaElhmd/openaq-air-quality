@@ -1,0 +1,322 @@
+{
+  "expectations": [
+    {
+      "id": "193846b5-5a4f-4fdb-b81e-0f003030e8e9",
+      "kwargs": {
+        "column": "sensor_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "f0f6c4eb-7688-4e67-bbc2-ffbdb1e04594",
+      "kwargs": {
+        "column": "location_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "e092c21c-3e6d-4d29-9cfc-2185619c9289",
+      "kwargs": {
+        "column": "location_name"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "0bf8d012-3227-4618-8641-ed720fe646b7",
+      "kwargs": {
+        "column": "latitude"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "0c6e1179-d670-4c4c-918c-b178b9ea001f",
+      "kwargs": {
+        "column": "longitude"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "54f861a9-57c0-49ba-a889-4ee011ec3f86",
+      "kwargs": {
+        "column": "value_avg"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "29a805ff-bb76-41f6-bcc0-81e768aba9d8",
+      "kwargs": {
+        "column": "min"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "ff9163eb-bb39-4525-a4cd-841605e5e100",
+      "kwargs": {
+        "column": "max"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "8d4c1bca-629f-4cc4-b7a2-663aad6f5063",
+      "kwargs": {
+        "column": "q25"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "fdb1be06-fdc1-4f97-87fc-5f32ac5ad0fa",
+      "kwargs": {
+        "column": "median"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "d9050467-b6c9-4822-8ed9-300b5c19e4ec",
+      "kwargs": {
+        "column": "q75"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "b182d309-eb2d-4094-95b7-5a698b394eaf",
+      "kwargs": {
+        "column": "std"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "3d843c5d-c714-438e-b0e5-46d1d3dbdae4",
+      "kwargs": {
+        "column": "expected_count"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "85d99997-1086-4c4c-a45c-02819ee9aa82",
+      "kwargs": {
+        "column": "observed_count"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "2cb9ec05-6489-4bd4-88aa-0223bbbe832c",
+      "kwargs": {
+        "column": "percent_complete"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "ebc0b2f7-5743-41f2-b1b0-6da531727a70",
+      "kwargs": {
+        "column": "latitude",
+        "max_value": 55.0,
+        "min_value": -25.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "6bf9553f-8c4e-4f72-9d0d-480acb1ae4cc",
+      "kwargs": {
+        "column": "longitude",
+        "max_value": 60.0,
+        "min_value": -65.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "103d7d00-2e35-4c0b-86e7-9cefb7e4198f",
+      "kwargs": {
+        "column": "units",
+        "value_set": [
+          "\u00b5g/m\u00b3"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "a86e3a82-0851-42e8-8fa7-db32ac0c7796",
+      "kwargs": {
+        "column": "parameter"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "25c70131-092e-4955-a424-e82ef6224fe8",
+      "kwargs": {
+        "column": "expected_count",
+        "regex": "^\\d+$"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "ea97a69f-8201-4f96-8a90-6e23c3b236c4",
+      "kwargs": {
+        "column": "observed_count",
+        "regex": "^\\d+$"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "d60c8467-370e-4010-8f8c-9ad3c35384be",
+      "kwargs": {
+        "column_list": [
+          "sensor_id",
+          "date",
+          "datetime_utc",
+          "datetime_local",
+          "value_avg",
+          "parameter",
+          "units",
+          "min",
+          "max",
+          "q25",
+          "median",
+          "q75",
+          "std",
+          "expected_count",
+          "observed_count",
+          "percent_complete",
+          "location_id",
+          "location_name",
+          "latitude",
+          "longitude",
+          "aqi",
+          "aqi_after_12h",
+          "actual_lag_hours",
+          "hour",
+          "day_of_week",
+          "month",
+          "year"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_compound_columns_to_be_unique"
+    },
+    {
+      "id": "a0e23d96-25d9-4142-a21c-b6422e7729db",
+      "kwargs": {
+        "column": "value_avg",
+        "max_value": 3700.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "993316ab-7c6c-4d58-b1ae-8e7082a4b961",
+      "kwargs": {
+        "column": "min",
+        "max_value": 3700.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "8065538b-85b2-4216-b76c-81de18102983",
+      "kwargs": {
+        "column": "max",
+        "max_value": 3700.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "0b1d08c1-3ce5-4812-8bba-55166d285adb",
+      "kwargs": {
+        "column": "q25",
+        "max_value": 3700.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "ce9f2da6-9b0f-4587-aa38-4773c72c3688",
+      "kwargs": {
+        "column": "median",
+        "max_value": 3700.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "77c0b996-1e22-41f7-bd6d-b159bc132386",
+      "kwargs": {
+        "column": "q75",
+        "max_value": 3700.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "3c5dec90-7a08-4a09-967f-6f541bb901e8",
+      "kwargs": {
+        "column": "std",
+        "max_value": 500.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    }
+  ],
+  "id": "b16395c6-fcd8-4955-a10b-a4643bd7b782",
+  "meta": {
+    "great_expectations_version": "1.15.0"
+  },
+  "name": "openaq_validation_suite",
+  "notes": null
+}
